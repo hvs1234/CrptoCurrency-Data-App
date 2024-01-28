@@ -1,0 +1,171 @@
+*{
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+    box-sizing: border-box;
+}
+
+body
+{
+    background-color: rgb(17, 8, 40);
+}
+
+.head
+{
+    display: flex;
+    justify-content: space-between;
+    padding: 1.5rem 4rem;
+    align-items: center;
+    width: 100%;
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: 1001;
+}
+.head .nav-1
+{
+    display: flex;
+    align-items: center;
+}
+.head .nav-1 img
+{
+    width: 10%;
+}
+.head .nav-link
+{
+    margin-left: 1rem;
+}
+.head .nav-link a
+{
+    margin: 0 1rem;
+    text-decoration: none;
+    color: whitesmoke;
+    font-family: 'Dosis';
+    letter-spacing: 2px;
+    font-size: 1.2rem;
+}
+.head .nav-link a:hover
+{
+    color: yellow;
+}
+.head .nav-2 button
+{
+    padding: 0.5rem 2rem;
+    border-radius: 20px;
+    background: transparent;
+    border: 1px solid whitesmoke;
+    outline: 0;
+    color: whitesmoke;
+    font-family: 'Saira';
+    font-size: 1rem;
+    letter-spacing: 2px;
+    cursor: pointer;
+}
+
+.container
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem 4rem;
+    margin-top: 0rem;
+    position: fixed;
+}
+.container .content
+{
+    display: flex;
+    flex-direction: column;
+    margin-left: 2rem;
+    z-index: 1001;
+}
+.container .content h1
+{
+    font-family: 'Saira';
+    letter-spacing: 2px;
+    font-size: 4.5rem;
+    margin-bottom: 1rem;
+    color: whitesmoke;
+}
+.container .content h1 span
+{
+    color: goldenrod;
+}
+.container .content p
+{
+    font-size: 1.4rem;
+    font-family: 'Dosis';
+    letter-spacing: 2px;
+    color: whitesmoke;
+    margin-bottom: 3rem;
+}
+.container .content .explore-btn
+{
+    padding: 0.8rem 2rem;
+    border-radius: 20px;
+    background-color: rgb(194, 145, 20);
+    color: whitesmoke;
+    font-family: 'Saira';
+    border: 0;
+    font-size: 1.2rem;
+    letter-spacing: 2px;
+    margin-right: 10rem;
+    cursor: pointer;
+}
+.container .explore-btn:hover
+{
+    background-color: rgb(175, 138, 44);
+}
+.container .content-img img
+{
+    width: 60rem;
+    height: 40rem;
+    margin-left: -20rem;
+    margin-right: -4rem;
+    position: relative;
+    top: 2rem;
+}
+
+.coin-box
+{
+    display: flex;
+    align-items: center;
+    margin-right: 1rem;
+    position: fixed;
+    bottom: 3.2rem;
+    right: 0;
+}
+.coin-box .coin
+{
+    display: flex;
+    gap: 2rem;
+    border: 1px solid whitesmoke;
+    border-radius: 5px;
+    align-items: center;
+    padding: 0.5rem 0rem;
+    justify-content: center;
+    margin: 0 5rem;
+}
+.coin-box .coin img
+{
+    width: 20%;
+}
+.coin .coin-value
+{
+    display: flex;
+    flex-direction: column;
+}
+.coin .coin-value:nth-child(1)
+{
+    font-size: 1.2rem;
+}
+.coin .coin-value p
+{
+    font-family: 'Dosis';
+    letter-spacing: 2px;
+    color: whitesmoke;
+    margin-bottom: 0.5rem;
+}
+.coin-value .coin-data
+{
+    font-size:  1.2rem;
+}
